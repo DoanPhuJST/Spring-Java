@@ -1,0 +1,27 @@
+/* Một số style cơ bản */
+body {
+    padding-top: 70px; /* Để tránh nội dung bị che bởi navbar */
+}
+
+.sidebar {
+    position: fixed;
+    top: 50px; /* Điều chỉnh cho phù hợp với chiều cao navbar */
+    bottom: 0;
+    left: 0;
+    z-index: 100; /* Để sidebar luôn hiển thị trên nội dung */
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto; /* Cho phép cuộn nếu nội dung quá dài */
+    border-right: 1px solid #eee;
+}
+
+.sidebar .nav-link {
+    color: #333;
+}
+
+.sidebar .nav-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Các style khác tùy chỉnh theo ý bạn */
